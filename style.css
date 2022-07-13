@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	color: white;
+}
+
+:root {
+	font-size: 18px;
+}
+
+body {
+	background-color: hsl(217, 54%, 11%);
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Outfit', Arial, Helvetica, sans-serif;
+}
+
+main {
+	background-color: hsl(216, 50%, 16%);
+	padding: 20px;
+	border-radius: 15px;
+}
+
+.image {
+	display: flex;
+	flex-shrink: 1;
+}
+
+.image,
+.mainImage {
+	border-radius: 7.5px;
+}
+
+.image:hover {
+	background-image: url(./images/icon-view.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: hsl(178, 100%, 50%);
+}
+
+.mainImage {
+	transition: 0.2s ease-in-out;
+}
+
+.mainImage:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.mainImage,
+main {
+	min-width: 220px;
+	width: 80vw;
+	max-width: 300px;
+}
+
+.texts>* {
+	margin: 15px 0;
+	color: hsl(0, 0%, 100%);
+}
+
+.texts>h1 {
+	font-size: 1.3rem;
+	font-weight: 800;
+	transition: 0.2s ease-in-out;
+}
+
+.texts>h1:hover {
+	color: hsl(178, 100%, 50%);
+	cursor: pointer;
+}
+
+.texts>p {
+	color: hsl(215, 51%, 70%);
+	font-weight: 300;
+}
+
+.promo {
+	display: flex;
+	justify-content: space-between;
+	padding: 5px 0;
+}
+
+.promo>p {
+	font-weight: 400;
+}
+
+.promo .price {
+	background-image: url(./images/icon-ethereum.svg);
+	background-position: center left;
+	background-repeat: no-repeat;
+	color: hsl(178, 100%, 50%);
+	padding-left: 20px;
+}
+
+.promo .days {
+	background-image: url(./images/icon-clock.svg);
+	background-position: center left;
+	background-repeat: no-repeat;
+	background-size: 20px;
+	color: hsl(215, 51%, 70%);
+	padding-left: 25px;
+}
+
+hr {
+	border: 1px solid hsl(215, 32%, 27%);
+}
+
+.footer {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+.footer>img {
+	max-width: 30px;
+	height: auto;
+	border: 1px solid white;
+	border-radius: 50%;
+}
+
+.footer .creator {
+	font-size: 0.8rem;
+	align-items: center;
+	background-position: center left;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+span {
+	color: hsl(0, 0%, 100%);
+	transition: 0.2s ease-in-out;
+}
+
+span:hover {
+	color: hsl(178, 100%, 50%);
+	cursor: pointer;
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
