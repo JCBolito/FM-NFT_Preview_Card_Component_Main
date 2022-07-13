@@ -14,8 +14,6 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
   - [Continued development](#continued-development)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 This mini project involves the creation of an NFT Preview Card Component using plain HTML and CSS.
 
