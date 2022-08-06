@@ -32,10 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: 
-	- [HTML](https://github.com/JCBolito/nft-preview-card-component-main/blob/main/index.html)
-	- [CSS](https://github.com/JCBolito/nft-preview-card-component-main/blob/main/style.css)
-- Live Site URL: [GitHub Pages](https://jcbolito.github.io/nft-preview-card-component-main/)
+- Solution URL: [GitHub Repository](https://github.com/JCBolito/FM-NFT_Preview_Card_Component_Main)
+- Live Site URL: [GitHub Pages](https://jcbolito.github.io/FM-NFT_Preview_Card_Component_Main/)
 
 ## My process
 Breaking down the project into smaller chunks, the following process were taken to guarantee the project's completion:
